@@ -1,0 +1,470 @@
+.container{
+    width: 300px;
+    height: 300px;
+    outline: 2px solid black;
+    position: relative;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    animation: square-pop 4s infinite;
+}
+
+@keyframes square-pop{
+
+0%{
+    top: 0;
+    left: 0;
+}
+
+25%{
+    top: 200px;
+    left: 0;
+}
+
+50%{
+    left: 200px;
+    top: 200px;
+}
+
+75%{
+    top: 0;
+    left: 200px;
+}
+
+100%{
+    top: 0;
+    left: 0;
+}
+
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    outline: 1px solid black;
+}
+
+.box-cn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first{
+    animation: square-first 4s infinite;
+}
+
+@keyframes square-first {
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes square-s{
+    0%{
+        background-color:white;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes square-t{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes square-f{
+    0%{
+        background-color: blue;
+    }
+
+    25%{
+        background-color: white;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes square-fif{
+    0%{
+        background-color: blue;
+    }
+
+    25%{
+        background-color: white;
+    }
+
+    50%{
+        background-color: green
+    }
+
+    75%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes square-s{
+    0%{
+        background-color: green;
+    }
+
+    25%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    75%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: blue
+    }
+}
+
+@keyframes square-sev{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes square-e{
+    0%{
+        background-color: white;
+    }
+
+    25%{
+        background-color: white;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes square-n{
+    0%{
+        background-color: yellow;
+    }
+
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes square-tenth{
+    0%{
+        background-color: blue;
+    }
+
+    25%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes square-eleventh{
+    0%{
+        background-color: white;
+    }
+
+    25%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes square-tw{
+    0%{
+        background-color: green;
+    }
+
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: blue;
+    }
+}
+
+@keyframes square-thir{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes square-four{
+    0%{
+        background-color: yellow;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes square-fift{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: red;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes square-six{
+    0%{
+        background-color: green;
+    }
+
+    25%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    75%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+.s{
+    animation: square-s 4s infinite;
+}
+
+.t{
+    animation: square-t 4s infinite;
+}
+
+.f{
+    animation: square-f 4s infinite;
+}
+
+.fif{
+    animation: square-fif 4s infinite;
+}
+
+.s{
+    animation: square-s 4s infinite;
+}
+
+.sev{
+    animation: square-sev 4s infinite;
+}
+
+.e{
+    animation: square-e 4s infinite;
+}
+
+.n{
+    animation: square-n 4s infinite;
+}
+
+.tenth{
+    animation: square-tenth 4s infinite;
+}
+
+.eleventh{
+    animation: square-eleventh 4s infinite;
+}
+
+.tw{
+    animation: square-tw 4s infinite;
+}
+
+.thir{
+    animation: square-thir 4s infinite;
+}
+
+.four{
+    animation: square-four 4s infinite;
+}
+
+.fift{
+    animation: square-fift 4s infinite;
+}
+
+.six{
+    animation: square-six 4s infinite;
+}
